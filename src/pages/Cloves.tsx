@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
+import clovesImage from '../../images/cloves.jpg';
 
 const Cloves = () => {
   return (
@@ -17,7 +18,7 @@ const Cloves = () => {
         <article>
           <h1 className="text-4xl font-bold mb-8">Cloves</h1>
           <img
-            src="https://images.unsplash.com/photo-1608817576152-26bbdb00afb7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80"
+            src={clovesImage}
             alt="Cloves"
             className="w-full h-96 object-cover rounded-lg mb-8"
           />

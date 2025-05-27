@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
+import grainOfSelimImage from '../../images/grain-of-selim.jpg';
 
 const GrainOfSelim = () => {
   return (
@@ -17,7 +18,7 @@ const GrainOfSelim = () => {
         <article>
           <h1 className="text-4xl font-bold mb-8">Grain of Selim</h1>
           <img
-            src="https://images.unsplash.com/photo-1599909092372-3b5dc9675ac4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80"
+            src={grainOfSelimImage}
             alt="Grain of Selim"
             className="w-full h-96 object-cover rounded-lg mb-8"
           />

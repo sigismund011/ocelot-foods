@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
+import gingerImage from '../../images/ginger.jpg';
 
 const GingerPowder = () => {
   return (
@@ -17,7 +18,7 @@ const GingerPowder = () => {
         <article>
           <h1 className="text-4xl font-bold mb-8">Ginger Powder</h1>
           <img
-            src="https://images.unsplash.com/photo-1615485500704-8e990f9900f7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80"
+            src={gingerImage}
             alt="Ginger Powder"
             className="w-full h-96 object-cover rounded-lg mb-8"
           />
