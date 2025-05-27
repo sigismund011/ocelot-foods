@@ -7,12 +7,12 @@ const Products = () => {
       items: [
         {
           name: "Coconut Oil",
-          image: "https://images.unsplash.com/photo-1621939514649-280e2ee25f60?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+          image: "/images/coconut-oil.jpg",
           description: "Pure, cold-pressed organic coconut oil"
         },
         {
           name: "Palm Oil",
-          image: "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+          image: "/images/palm-oil.jpeg",
           description: "Premium quality red palm oil"
         }
       ]
@@ -22,22 +22,22 @@ const Products = () => {
       items: [
         {
           name: "Grain of Selim",
-          image: "https://images.unsplash.com/photo-1599909092372-3b5dc9675ac4?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+          image: "/images/grain-of-selim.jpg",
           description: "Traditional African spice with unique flavor"
         },
         {
           name: "Ginger Powder",
-          image: "https://images.unsplash.com/photo-1615485500704-8e990f9900f7?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+          image: "/images/ginger.jpg",
           description: "Finely ground organic ginger root"
         },
         {
           name: "Dried Chilly Powder",
-          image: "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+          image: "/images/dried-chilly-powder.jpg",
           description: "Hot and aromatic chilly powder"
         },
         {
           name: "Cloves",
-          image: "https://images.unsplash.com/photo-1608817576152-26bbdb00afb7?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+          image: "/images/cloves.jpg",
           description: "Whole dried cloves with intense aroma"
         }
       ]

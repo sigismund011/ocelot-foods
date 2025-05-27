@@ -15,6 +15,7 @@ import ginger from '../../images/ginger.jpg';
 import welcomeImage from '../../images/welcome.jpg';
 import ourStoryImage from '../../images/our-story.jpg';
 import ourMissionImage from '../../images/our-mission.jpg';
+import logo from '../../images/logo.svg';
 
 const Home = () => {
   const heroImages = [
@@ -36,6 +37,9 @@ const Home = () => {
 
   return (
     <div>
+      <div className="max-w-7xl mx-auto px-4 py-6">
+        <img src={logo} alt="Ocelot Foods Logo" className="h-16 w-auto mx-auto" />
+      </div>
       {/* Hero Section with Slideshow */}
       <section className="relative h-[90vh] min-h-[600px] max-h-[900px]">
           {heroImages.map((image, index) => (
