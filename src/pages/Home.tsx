@@ -15,7 +15,7 @@ import ginger from '../../images/ginger.jpg';
 import welcomeImage from '../../images/welcome.jpg';
 import ourStoryImage from '../../images/our-story.jpg';
 import ourMissionImage from '../../images/our-mission.jpg';
-import logo from '../../images/logo.svg';
+import logo from '../../images/logo.jpg';
 
 const Home = () => {
   const heroImages = [
