@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
-import clovesImage from '../../images/cloves.jpg';
+
+const clovesImage = '/images/cloves.jpg';
 
 const Cloves = () => {
   return (

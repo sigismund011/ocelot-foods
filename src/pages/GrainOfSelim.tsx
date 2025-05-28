@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
-import grainOfSelimImage from '../../images/grain-of-selim.jpg';
+
+const grainOfSelimImage = '/images/grain-of-selim.jpg';
 
 const GrainOfSelim = () => {
   return (

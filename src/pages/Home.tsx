@@ -3,19 +3,19 @@ import { Link } from 'react-router-dom';
 import { ArrowRight, ShoppingBag } from 'lucide-react';
 import { motion } from 'framer-motion';
 
-import slideshow1 from '../../images/slideshow-1.jpg';
-import slideshow2 from '../../images/slideshow-2.jpg';
-import slideshow3 from '../../images/slideshow-3.jpg';
-import slideshow4 from '../../images/slideshow-4.jpg';
-import slideshow5 from '../../images/blog 4.jpg';
-import grain4 from '../../images/blog-1.jpg';
-import cloves from '../../images/cloves.jpg';
-import grainOfSelimImage from '../../images/grain-of-selim.jpg';
-import ginger from '../../images/ginger.jpg';
-import welcomeImage from '../../images/welcome.jpg';
-import ourStoryImage from '../../images/our-story.jpg';
-import ourMissionImage from '../../images/our-mission.jpg';
-import logo from '../../images/logo.jpg';
+const slideshow1 = '/images/slideshow-1.jpg';
+const slideshow2 = '/images/slideshow-2.jpg';
+const slideshow3 = '/images/slideshow-3.jpg';
+const slideshow4 = '/images/slideshow-4.jpg';
+const slideshow5 = '/images/blog 4.jpg';
+const grain4 = '/images/blog-1.jpg';
+const cloves = '/images/cloves.jpg';
+const grainOfSelimImage = '/images/grain-of-selim.jpg';
+const ginger = '/images/ginger.jpg';
+const welcomeImage = '/images/welcome.jpg';
+const ourStoryImage = '/images/our-story.jpg';
+const ourMissionImage = '/images/our-mission.jpg';
+const logo = '/images/logo.jpg';
 
 const Home = () => {
   const heroImages = [
