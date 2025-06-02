@@ -24,7 +24,7 @@ const Story = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-16">
           <div>
             <img
-              src="https://images.unsplash.com/photo-1589927986089-35812388d1f4?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+              src="/images/our-story.jpg"
               alt="Farmers in the field"
               className="rounded-lg shadow-lg"
             />
@@ -59,7 +59,7 @@ const Story = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div>
             <img
-              src="https://images.unsplash.com/photo-1595839095404-8118d3974661?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+              src="/images/our-mission.jpg"
               alt="Spice processing"
               className="rounded-lg shadow-lg"
             />
